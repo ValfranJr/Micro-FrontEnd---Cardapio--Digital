@@ -1,0 +1,50 @@
+.dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  max-height: 80%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: auto;
+  z-index: 10;
+  margin: 10px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.item {
+    list-style: none;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #000;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.button {
+  background-color: #ff0000;
+  color: #fff;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
