@@ -11,7 +11,7 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-const Menu = dynamic(() => import("catalogo/Menu"), { ssr: false });
+const Menu = dynamic(() => import("micro-cardapio/Menu"), { ssr: false });
 const Pedido = dynamic(() => import("micro-pedido/Pedido"), { ssr: false });
 export default function Home() {
   return (
